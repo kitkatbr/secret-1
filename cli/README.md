@@ -3,9 +3,9 @@
 </p>
 <br/>
 
->Secret will protect you when sharing information,
-you can use it to send text without worrying about hijacked.
-For more, refer to [Introduction](https://secret.gl/0x01).
+> Secret will protect you when sharing information,
+> you can use it to send text without worrying about hijacked.
+> For more, refer to [Introduction](https://secret.gl/0x01).
 
 ## How to use
 

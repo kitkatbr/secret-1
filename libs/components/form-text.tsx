@@ -10,11 +10,10 @@ const FormText: React.FC<FormTextProps> = ({ error, onChange }) => {
   const { bindings: textBindings, state: textState } = useInput('')
   const { bindings: inputBindings, state: inputState } = useInput('')
   const { bindings, state: tabState } = useTabs('multiline')
-  const state = useMemo(() => (tabState === 'multiline' ? textState : inputState), [
-    textState,
-    inputState,
-    tabState,
-  ])
+  const state = useMemo(
+    () => (tabState === 'multiline' ? textState : inputState),
+    [textState, inputState, tabState],
+  )
 
   const formHandler = (event: React.SyntheticEvent) => {
     event.preventDefault()

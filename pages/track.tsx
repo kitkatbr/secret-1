@@ -85,7 +85,8 @@ const Track: React.FC<unknown> = () => {
             disabled={!readerCount || isDisabled}
             type="error-light"
             size="small"
-            onClick={clickHandler}>
+            onClick={clickHandler}
+          >
             Destroy
           </Button>
         </Grid>

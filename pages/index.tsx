@@ -20,7 +20,8 @@ const Index: React.FC<unknown> = () => {
               justify="center"
               alignItems="center"
               direction="column"
-              className="desc">
+              className="desc"
+            >
               <Text p size={14}>
                 Secret will protect you when sharing information, you can use it to send
                 text without worrying about hijacked. For more, refer to{' '}

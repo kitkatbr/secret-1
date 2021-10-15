@@ -49,7 +49,8 @@ const Settings: React.FC<SettingsProps> = ({ onClick }) => {
           icon={<SettingsIcon />}
           auto
           size="small"
-          onClick={() => setVisible(true)}>
+          onClick={() => setVisible(true)}
+        >
           settings
         </Button>
       </SettingsBox>

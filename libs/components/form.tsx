@@ -109,7 +109,8 @@ const Form: React.FC<unknown> = () => {
             icon={<Shield />}
             type="success-light"
             size="small"
-            onClick={clickHandler}>
+            onClick={clickHandler}
+          >
             Secret it
           </Button>
         </Grid>

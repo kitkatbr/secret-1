@@ -153,7 +153,8 @@ const Status = forwardRef<StatusNext, React.PropsWithChildren<StatusProps>>(
           <Modal.Action
             passive={error}
             loading={state < 5 && !error}
-            onClick={clickHandler}>
+            onClick={clickHandler}
+          >
             {error ? 'wait and try again' : 'Completed, Check it'}
           </Modal.Action>
         </Modal>

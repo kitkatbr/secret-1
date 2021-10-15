@@ -24,7 +24,8 @@ const IndexLinks: React.FC<unknown> = () => {
             </>
           }
           placement="bottom"
-          type="dark">
+          type="dark"
+        >
           <div className="item">
             <Command size={12} />
             <Text span size={12}>

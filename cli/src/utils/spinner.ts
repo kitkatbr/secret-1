@@ -1,7 +1,7 @@
 import ora, { Ora } from 'ora'
 
 type G = NodeJS.Global & {
-  spinner: Ora,
+  spinner: Ora
 }
 declare let global: G
 
